@@ -22,14 +22,9 @@ div {
     text-shadow: none;
 }
 
-h1 {
+.contents {
     color: #fae675;
     letter-spacing: 4px;
-}
-
-h4 {
-    color: #fae675;
-    letter-spacing: 3px;
 }
 
 .btn-1 {
