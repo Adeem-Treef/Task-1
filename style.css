@@ -7,7 +7,6 @@ body {
     background-size: cover;
     text-align: center;
     font-family: 'Cabin Condensed', sans-serif;
-    font-style: normal;
   }
 
 div {
@@ -38,5 +37,6 @@ div {
     color: #ffffff;
     font-size: 1em;
     box-shadow: none;
+    font-style: bold;
 }
 
