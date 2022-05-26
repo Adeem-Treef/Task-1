@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@500&display=swap');
+
 
 body {
     background-image:url(./image/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
   }
 
 div {
@@ -22,7 +24,7 @@ div {
 
 h1 {
     color: #fae675;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 h4 {
