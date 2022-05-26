@@ -1,42 +1,43 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&family=Source+Sans+Pro&display=swap');
 
 body {
     background-image:url(./image/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-
+    font-family: 'Source Sans Pro', sans-serif;
   }
 
 div {
-    height: 200px;
-    width: 800px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -135px;
-    margin-left: -400px;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
     text-shadow: none;
-    
 }
 
-
-.contents {
+h1 {
     color: #fae675;
-    font-family: "Airbnb Cereal App", sans-serif;
-    font-style: normal;
-    text-shadow: none;
-    
+    letter-spacing: 3px;
 }
+
+h4 {
+    color: #fae675;
+    letter-spacing: 3px;
+}
+
 .btn-1 {
     margin-top: 45px;
     cursor: pointer;
     border: 1px solid #fae675;
     border-radius: 15px;
-    font-family: "Airbnb Cereal App", sans-serif;
     background-color: transparent;
     height: 40px;
-    width: 200px;
+    width: 150px;
     color: #ffffff;
     font-size: 1em;
     box-shadow: none;
